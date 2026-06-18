@@ -11,33 +11,31 @@ Built to practice Docker fundamentals and multi-container orchestration with Doc
 
 ## Project Structure
 
-\```
+```
 .
-├── app.py               # Flask application
-├── requirements.txt     # Python dependencies
-├── Dockerfile           # Image build instructions
-├── docker-compose.yml   # Multi-container setup
-└── .dockerignore        # Excludes unnecessary files from image
-\```
-
+├── app.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+└── .dockerignore
+```
 ## Getting Started
 
 Make sure you have [Docker](https://www.docker.com/) installed, then:
 
-\```bash
-git clone https://github.com/YOUR_USERNAME/visit-counter.git
+```bash
+git clone https://github.com/ahmed-m-miqdad/visit-counter.git
 cd visit-counter
 docker compose up
-\```
+```
 
 Open [http://localhost:5000](http://localhost:5000) and refresh — the counter increments on every visit.
 
 To stop:
 
-\```bash
+```bash
 docker compose down
-\```
-
+```
 ## What This Covers
 
 - Writing a Dockerfile from scratch
@@ -48,4 +46,4 @@ docker compose down
 
 ## Author
 
-**Your Name** — [GitHub](https://github.com/YOUR_USERNAME) · [LinkedIn](https://linkedin.com/in/YOUR_USERNAME)
+**Ahmed M Miqdad** — [GitHub](https://github.com/ahmed-m-miqdad) · [LinkedIn](https://www.linkedin.com/in/ahmed-m-miqdad)
