@@ -1,5 +1,7 @@
 # Visit Counter 🐳
 
+![CI](https://github.com/ahmed-m-miqdad/visit-counter/actions/workflows/docker.yml/badge.svg)
+
 A containerized web application that tracks page visits in real time.  
 Built to practice Docker fundamentals and multi-container orchestration with Docker Compose.
 
